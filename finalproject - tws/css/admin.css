@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+
+:root {
+  --navbar-color: #451952;
+  --primary-bg-color: #662549;
+  --secondary-bg-color: #ae445a;
+  --primary-text-color: #f39f5a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--primary-text-color);
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 80px;
+  font-style: normal;
+  padding-left: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--navbar-color);
+}
+
+.nav-links {
+  display: flex;
+  padding-top: 40px;
+  padding-right: 50px;
+  gap: 50px;
+}
+
+.navbar a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #451952;
+  background-color: #f39f5a;
+  color: #451952;
+}
+
+label {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+button {
+  padding: 15px;
+  background-color: var(--navbar-color);
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#details {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid var(--primary-text-color);
+  border-radius: 10px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
